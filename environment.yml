@@ -4,6 +4,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pygobject
+  - cairo
+  - pango
   - pip
   - pip:
     - -r file:requirements.txt

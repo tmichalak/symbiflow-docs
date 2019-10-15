@@ -22,7 +22,10 @@ needs_sphinx = '1.6'
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = [
+    'sphinx.ext.todo',
+    'symbolator_sphinx',
+]
 
 numfig = True
 
@@ -289,3 +292,9 @@ rst_prolog = """
 .. role:: raw-html(raw)
    :format: html
 """
+
+### SYMBOLATOR ###
+
+symbolator_cmd_args       = ['--transparent']
+symbolator_output_format  = 'svg'
+
