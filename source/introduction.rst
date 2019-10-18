@@ -1,6 +1,9 @@
 Introduction
 ============
 
+.. doxygenclass:: prjxray::xilinx::xc7series::ConfigurationBus
+   :project: prjxray
+
 SymbiFlow is a Open Source Verilog-to-Bitstream FPGA synthesis flow,
 currently targeting Xilinx 7-Series, Lattice iCE40 and Lattice ECP5 FPGAs.
 Think of it as the GCC of FPGAs.
